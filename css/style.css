@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box;
 }
-
 .calc-container {
   width: 30%;
   height: 600px;
@@ -36,7 +35,6 @@
   transition: 0.3s;
   opacity: 0.9;
   height: 100px;
-  /* triple space */
   width: 75%;
   cursor: pointer;
   border: none;
@@ -62,6 +60,14 @@
 .calc-btn:hover {
   opacity: 1;
 }
+
+.calc-btn:active {
+  /* inherent from .calc-btn */
+  background: #222;;
+}
 .zero-btn:hover {
   opacity: 1;
+}
+.zero-btn:active {
+  background: #222;;
 }
