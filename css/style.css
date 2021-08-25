@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+.calc-container {
+  width: 30%;
+  height: 600px;
+  margin: 50px auto;
+  border: 1px #333 solid;
+  display: block;
+}
+.screen {
+  font-size: 50px;
+  color: #fff;
+  padding: 15px 15px;
+  background: #333;
+  text-align: right;
+}
+.btn-container {
+  display: block;
+  background: #000;
+}
+.calc-btn {
+  height: 100px;
+  width: 35%;
+  cursor: pointer;
+  border: none;
+  font-size: 50px;
+  margin-right: 0.5%;
+  transition: 0.3s;
+  opacity: 0.9;
+}
+.zero-btn {
+  /* inherent from .calc-btn */
+  transition: 0.3s;
+  opacity: 0.9;
+  height: 100px;
+  /* triple space */
+  width: 75%;
+  cursor: pointer;
+  border: none;
+  font-size: 50px;
+  margin-right: 0.5%;
+}
+.equal-btn {
+  width: 25%;
+}
+
+.double {
+  width: 73%;
+}
+.operation {
+  background-color: #df974c;
+}
+.btn-row {
+  display: flex;
+  place-content: stretch space-between;
+  margin-bottom: 0.5%;
+}
+
+.calc-btn:hover {
+  opacity: 1;
+}
+.zero-btn:hover {
+  opacity: 1;
+}
